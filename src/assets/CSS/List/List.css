@@ -1,0 +1,14 @@
+.ListContainer{
+  width: 60rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left:0rem;
+  padding-top: 7rem;
+  margin: auto;
+  min-height: 37rem;
+}
+.ListPaging{
+  height: 5rem;
+}

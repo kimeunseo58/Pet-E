@@ -1,0 +1,26 @@
+.ListLayout{
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  width: 57rem;
+  margin: auto;
+  margin-top: 0rem;
+}
+.filler {
+  flex-grow: 1; /* 마지막 줄의 아이템을 왼쪽으로 정렬 */
+}
+.filler2 {
+  width: 18.45rem; /* 요소의 최소 너비 */
+  height: 14rem; /* 요소의 높이 */
+}
+
+.LayoutReview{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  width: 57rem;
+  margin: auto;
+  margin-top: -3rem;
+  margin-bottom: 3rem;
+}

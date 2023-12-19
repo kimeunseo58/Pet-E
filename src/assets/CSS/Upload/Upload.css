@@ -1,0 +1,118 @@
+.Upload{
+  overflow-x: hidden;
+  width:60rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  margin-top: 5rem;
+}
+.Quill{
+  margin-top:2.5em;
+  width: 46rem;
+  margin-left: 0.4rem;
+}
+.Quill .ql-editor{
+
+  min-height: 10rem;
+}
+.title_input{
+  margin-top: 0.75rem;
+  height: 4rem;
+  width: 43rem;
+  margin-left: 1rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.2rem;
+  border: none;
+  outline: none;
+}
+.img_input_label {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-left: 41.5rem;
+}
+.img_input_label .img_input{
+  position: absolute;
+  top: 0;
+  width: 2.5rem;
+  opacity:0; 
+  visibility: collapse;
+  cursor: pointer;
+}
+.img_input_label .uploadImgIcon{
+  width: 3.75rem;
+    height: 3.75rem;
+    position: absolute;
+    top:-1.75rem;
+    color: rgba(30, 159, 131, 0.75);
+    right: 37rem;
+}
+.title_input_label{
+  border-bottom: 1.5px solid rgba(145, 145, 145, 0.2);
+  padding: 1rem;
+  height: 5rem;
+  width: 47rem;
+}
+
+.UploadContainer textarea{
+  margin-left: 0.75rem;
+  margin-top: 1.5rem;
+  font-family: 'Orbit-Regular', sans-serif; 
+  width: 42rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+   border: none;
+  outline: none; 
+  resize: none;
+  border-radius: 0.25rem;
+  background-color: rgba(30, 159, 131, 0.05);
+}
+.imageSection{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.uploadImgList{
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  width: 46rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+.ListMap_div{
+  width: 46rem;
+  height: 8rem;
+  overflow-x: auto;    margin-top: -1rem;
+}
+.setRefandVisible{
+  height: 0rem;
+  top:0;
+  right:0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.Rating_up{
+  background-color: rgba(30, 159, 131, 0.05);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 46rem;
+    margin-bottom: -1.5rem;
+    
+    margin-left: 0.25rem;
+}
+.Rating_up p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: rgba(30, 159, 131);;
+}

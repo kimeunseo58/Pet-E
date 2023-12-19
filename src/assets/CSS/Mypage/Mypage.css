@@ -1,0 +1,110 @@
+.Mypage{
+  margin-top: 10rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Mypage_Left{
+  width: 42rem;
+  height: 25rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.Mypage_Left p{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.Mypage_Left button{
+  width: 11rem;
+  height: 2.5rem;
+  margin-left: 15.5rem;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0.25rem;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  font-size: 0.65rem;
+  color: rgba(128, 128, 128);
+
+}
+.Mypage_Left .logout{
+   top: 15rem;
+   position: absolute;
+  border: none;
+  right: 1rem;
+    transform: rotateY(180deg);
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.Mypage_Left .logout svg{
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 6.5rem;
+  margin-left: 37rem 
+
+}
+.userInfo_Mypage{
+  display: flex;
+  flex-direction: row;
+}
+.HR{
+  margin-top: 2rem;
+  border: 0.1px solid rgba(128, 128, 128, 0.25);
+  width: 80%;
+}
+.heart_mypage{
+  width: 2.5rem;
+  height: 2.5rem;
+  padding:0.25rem;
+  stroke-width: 0.01px; 
+}
+.mypage_infoBar{
+  width: 3rem;
+  height: 4rem;
+  margin-left: 2.5rem;
+}
+.mypage_infoBar p{
+  margin-top: -0.55rem;
+  font-size: 0.75rem;
+}
+.mypage_infoBar .numberOfUser{
+  margin-top: -0.25rem;
+  font-size: 1.25rem;
+}
+.Mypage_Right{
+  margin-top:-1rem;
+  width: 40rem;
+  margin-right:-2.5rem;
+}
+.Right_Div_nav{
+  margin-left:0.75rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.Right_Div_nav button{
+  font-family: 'Orbit-Regular', sans-serif;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width:7.4rem;
+  border:none;
+  background-color: white;
+}
+.Right_Div_nav .activeButton {
+  border-bottom: 3px solid rgba(30, 157, 130, 0.5);
+  color: rgb(30, 157, 130);
+}
+.Right_Div{
+  border:1px solid black;
+  margin-top: 1rem;
+  height: 10rem;
+}

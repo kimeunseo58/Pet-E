@@ -1,0 +1,144 @@
+#ProfileUpload{
+  border-radius: 0.25rem;
+  border: 1px solid rgb(30,157,130,0.25);
+  padding: 2rem;
+  width: 40rem;
+  margin: auto;
+  min-height: 31.5rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+#ProfileUpload_title{
+  font-size: 1.5rem;
+  font-weight: 900;
+  height: 1.5rem;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+#deleteUser{
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  background:none;
+  border: none;
+  border-bottom: 1.5px solid rgb(200, 0, 0);
+  color:rgb(200, 0, 0);
+}
+#userInfo_Div, #userInfo_Div_img{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+}
+#userInfo_Div p, #userInfo_Div_img p{
+  width: 10rem;
+  line-height: 4rem;
+  text-align: left;
+  justify-content: center;
+  margin:0;
+}
+#userInfo_Div div{
+  line-height: 4rem;
+}
+#userInfo_Div button{
+  margin-left: 1rem;
+  height: 2.2rem;
+  margin-top: 1rem;
+  background-color: rgb(30,157,130);
+  border-radius: 0.25rem;
+  color: white;
+  border: none;
+}
+#userInfo_Div button:disabled{
+  background-color: lightgray
+}
+#userInfo_Div input{
+  height:2rem;
+  width: 15rem;
+  padding-left: 0.5rem;
+  margin-top: 1rem;
+  border:1.5px solid lightgray;
+  outline: none;
+  border-radius: 0.25rem;
+}
+#userInfo_Div input:focus{
+  border:1.5px solid rgb(30,157,130);
+}
+#userInfo_Div_img{
+  height: 12rem;
+
+}
+#alert_nick{
+  position: absolute;   
+  font-size: 0.65rem;
+  top:-1.5rem;
+  left: 14.25rem;
+  color: rgb(202,119,0)
+}
+#submitButton{
+  color: white;
+  border: none;
+  background-color: rgb(30,157,130);
+  width: 19rem;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  margin-left: 10rem;
+  margin-top: 1.5rem;
+}
+#submitButton:disabled{
+  
+  background-color: lightgrey;
+}
+.profile_input_input{
+  visibility: hidden;
+}
+#userInfo_Div_img .profile_input{
+  position: absolute;
+  top: 1.5rem;
+  left: 16.75rem;
+  border-radius: 0.25rem;
+  border: none;
+  color: white;
+  background-color:rgb(30,157,130);
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+  width: 3rem;
+  height: 1.5rem;
+}
+.profile_input svg{
+  margin-top: -0.05rem;
+    margin-left: -0.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.profile_input div{
+  margin: 0;
+  width: 1.5rem;
+  font-size: 0.65rem;
+  line-height: 1.25rem;
+}
+.profile_input2, .profile_input2 svg{
+  position: absolute;
+  top: 1.25rem;
+  left: 10rem;
+  border-radius: 0.5rem;
+  height: 10rem;
+  width: 10rem;
+  opacity: 0;
+}
+.profile_input2:hover{
+  opacity: 0.25;
+  border: none;
+  background-color:black
+}
+.profile_input2:hover svg{
+  opacity: 1;
+  margin-left: -7.25rem;
+  margin-top: 1.5rem;
+  color: white;
+  width: 5rem;
+  height: 5rem;
+}

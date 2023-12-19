@@ -1,0 +1,53 @@
+.banner-container {
+  border-radius: 0.25rem;
+  width: 14.5rem;
+  margin-left: 0.4rem;
+  position: relative;
+  overflow: hidden;
+}
+.banner{
+  height: 25rem;
+  z-index: 2;
+  position: relative;
+  display: flex; /* 배너 이미지들을 가로로 정렬하기 위해 추가 */
+  transition: transform 0.5s ease;
+}
+.banner a {
+  flex: 1 0 100%; /* 배너 이미지들이 가로로 균일하게 분할되도록 추가 */
+}
+.toLeft svg{
+  margin-top: 4px;
+}
+.toRight svg{
+  margin-top: 4px;
+}
+.toLeft,
+.toRight {
+  position: absolute;
+  top: 50%;
+  background-color: #ffffff8f;
+  color:grey;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  padding: 5px;
+  z-index: 10;
+  transition: transform 0.3s ease;
+  cursor: pointer; 
+}
+.toLeft {
+  left: 5px;
+  transform: translateY(-50%);
+}
+.toRight {
+  right: 5px;
+  transform: translateY(-50%);
+}
+.banner img {
+  position: absolute;
+  width: 100%; /* 이미지의 너비를 부모 요소(div)에 맞게 설정 */
+  height: 100%; /* 이미지의 높이를 부모 요소(div)에 맞게 설정 */
+  object-fit: cover; /* 이미지를 부모 요소에 맞게 자르기 */
+  object-position: center top; /* 이미지의 중심을 기준으로 자르기 */
+}

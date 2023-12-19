@@ -1,0 +1,68 @@
+
+.ImgPosts{
+  
+  position: relative;
+}
+.IMG-container_Posts{
+  border-radius: 0.25rem;
+  width: 45rem;
+  height: 30rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.IMG_Posts{  
+  height: 45rem;
+  z-index: 2;
+  position: relative;
+  display: flex; /* 배너 이미지들을 가로로 정렬하기 위해 추가 */
+  transition: transform 0.5s ease;
+
+}
+
+.IMG_Posts div{
+    flex: 1 0 100%; /* 배너 이미지들이 가로로 균일하게 분할되도록 추가 */
+}
+
+.IMG_Posts img {
+    position: absolute;
+    width: 45rem; 
+    height: 30rem; /* 이미지의 높이를 부모 요소(div)에 맞게 설정 */
+    object-fit: cover; /* 이미지를 부모 요소에 맞게 자르기 */
+    object-position: center center; /* 이미지의 중심을 기준으로 자르기 */
+}
+.ImgPostsRightBTN, .ImgPostsLeftBTN{
+  position: absolute;
+  top: 50%;
+  background-color:rgb(255, 255, 255,0.5);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  z-index: 10;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.ImgPostsRightBTN svg, .ImgPostsLeftBTN svg{
+  color: rgb(30,157,130);
+}
+
+.ImgPostsLeftBTN {
+  right : 42.5rem;
+  transform: translateY(-50%);
+}
+.ImgPostsRightBTN {
+  left : 42.5rem;
+  transform: translateY(-50%);
+}
+
+.ImgPosts .ImgPostsLeftBTN,
+.ImgPosts .ImgPostsRightBTN {
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+}
+
+.ImgPosts:hover .ImgPostsLeftBTN,
+.ImgPosts:hover .ImgPostsRightBTN {
+  opacity: 1; /* 호버 시에 보이게 함 */
+}

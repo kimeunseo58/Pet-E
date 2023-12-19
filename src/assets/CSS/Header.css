@@ -1,0 +1,244 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  width: 99.7vw;
+  position: fixed;
+  top:0;
+  border-bottom: 0.5px solid rgba(211, 211, 211, 0.5);
+  z-index: 100;
+  background-color: white;
+  justify-content: center;
+}
+.header div{
+  line-height: 5rem;
+}
+.header button{
+  font-family: 'Orbit-Regular', sans-serif;
+  background-color: #ffffff00;
+  border:none;
+}
+.Logo_Header{
+  margin-left: -3rem;
+}
+.LogoIMG{
+  height: 100%;
+}
+.Logo_Header button{
+  font-size: 2rem;
+  width: 11rem;
+  height: 4rem;
+  margin-top: 0.5rem;
+  margin-right: -1rem;
+}
+.header .toList{
+  width: 80px;
+  height: 4rem;
+  margin-top: 0.5rem;
+  min-width: 80px; /* 최소 너비 설정 */
+  max-width: 80px; /* 최대 너비 설정 */
+}
+.header button:hover{
+  color:rgba(30, 159, 131);
+  font-weight: 800;
+}
+.SearchLabel{
+  margin-left: 5.5rem;
+  margin-right: 1rem;
+  display: flex;
+  width: 23rem;
+  height: 3rem;
+  margin-top: 1.05rem;
+  border: 1px solid lightgrey;
+  border-radius: 0.15rem;
+}
+.searchIcon{
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  padding-top: 0.35rem;
+}
+.userIcon{
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-top: 1.125rem;
+}
+.userimg{
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-top: 1.125rem;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+.header .WhenLogIn{
+  display: flex;
+  flex-direction: row;
+  margin-left: -0.5rem;
+}
+.header .writeBTNcontainer{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.header .writeBTN{
+  display: flex;
+  flex-direction: row;
+  width: 4rem;
+  height: 2.2rem;
+  border-radius: 0.25rem;
+  margin-top: 1.45rem;
+  color:white;
+  background-color: rgba(30, 159, 131);
+  margin-left: 0.5rem;
+  font-size: 0.65rem;
+  justify-content: center;
+  line-height: 2rem;
+}
+.header .writeBTN:hover{
+  background-color: #1e9d82;
+  font-size: 0.65rem;
+  color:white;
+  font-weight: 200;
+}
+.header .writeBTN svg{
+  margin-left: 0.25rem;
+  padding-top: 0.75rem;
+}
+.header .dropdown-invisible {
+  /* 기본 스타일 */
+  display: flex;
+  position: absolute;
+  top: 4rem;
+  right: -5.8rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 15rem;
+  z-index: 120;
+  background-color: white;
+  border-radius: 0.35rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  height: 8rem; /* 높이를 자동으로 설정하여 초기 높이로 유지 */
+  transition: opacity 0.3s ease, visibility 0s 0.3s, height 0s 0.3s;
+  transform-origin: top;
+  transform: scaleY(1);
+}
+
+.header .dropdown-content {
+  /* 기본 스타일 */
+  display: flex;
+  position: absolute;
+  top: 4rem;
+  right: -5.8rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 15rem;
+  z-index: 120;
+  background-color: white;
+  border-radius: 0.35rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  overflow: hidden;
+  opacity: 1;
+  visibility: visible;
+  height: 8rem; /* 높이를 자동으로 설정하여 초기 높이로 유지 */
+  transition: opacity 0.3s ease, visibility 0s, height 0s;
+  transform-origin: top;
+  transform: scaleY(1);
+}
+
+.header .dropdown-content button{
+  margin: auto;
+  line-height: 3.6rem;
+  height: 3.6rem;
+  width: 14.6rem;
+  padding:0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header .dropdown-content #starBTN svg{
+  color:rgb(202, 119, 0);
+}
+.header .dropdown-content #pawBTN svg{
+  color:rgb(30, 157, 130);
+  margin:0.25rem
+}
+.header .dropdown-invisible button{
+  margin: auto;
+  height: 3.6rem;
+  width: 14.6rem;
+  padding:0.2rem;
+}
+.header .dropdown-content button:hover{
+  background-color: rgba(211, 211, 211, 0.15);
+  color:inherit;
+  font-weight: inherit;
+}
+.SearchLabel input{
+  border:none;
+  width: 20rem;
+}
+.SearchLabel input:focus {
+  outline: none;
+}
+.SearchLabel button{
+  border:none;
+}
+
+input {
+  font-family: 'Orbit-Regular', sans-serif;
+}
+::-webkit-input-placeholder {
+  font-family: 'Orbit-Regular', sans-serif;
+}
+
+
+.header_up {
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  width: 99.8vw;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  border-bottom: 0.5px solid rgba(211, 211, 211, 0.5);
+  z-index: 100;
+  background-color: white;
+  justify-content: center;
+}
+.header_up .Logo_Header{
+  right: 21.01rem;
+  position: relative;
+}
+.header_up .Logo_Header button{
+  background-color: #ffffff00;
+  border: none;
+  width: 11rem;;
+}
+.header_up .Logo_Header .LogoIMG{
+  height: 100%;
+}
+.toUpload{
+  position: relative;
+  left: 21rem;
+  width: 4rem;
+  height: 2.2rem;
+  border-radius: 0.25rem;
+  margin-top: 1.45rem;
+  border: none;
+  color:white;
+  background-color: rgba(30, 159, 131, 0.75);
+  margin-left: 0.5rem;
+  font-size: 0.65rem;
+  justify-content: center;
+  line-height: 2rem;
+}
+.toUpload:disabled{
+  color:white;
+  background-color: rgba(0, 0, 0, 0.15);
+}

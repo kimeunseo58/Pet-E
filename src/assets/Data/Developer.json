@@ -1,0 +1,23 @@
+{
+  "developer": [
+    {
+      "no": 1,
+      "name": "김은서",
+      "github":"https://github.com/kimeunseo58",
+      "email":"alan0221@naver.com"
+    },
+    {
+      "no": 2,
+      "name": "송원선",
+      "github":"https://github.com/ws1811",
+      "email":"rnsjtm0811@gmail.com"
+    },
+    {
+      "no": 3,
+      "name": "최성혁",
+      "github":"https://github.com/Choi-Seong-Hyeok",
+      "email":"cinemay33@gmail.com"
+    }
+
+  ]
+}

@@ -1,0 +1,187 @@
+#Posts{
+  margin-top: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#postInfoTop{
+  margin-top: 0.5rem;
+  width: 45rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-bottom: 1px solid rgba(30, 159, 131);
+}
+#postInfoType{
+  width: 20rem;
+}
+#postInfouserInfo{
+  width:39rem;
+  justify-content: left;
+  display: flex;
+  flex-direction: row;
+}
+
+#postInfouserInfo_text{
+  display: flex;
+  flex-direction: column;
+  margin-left:1rem
+  
+}
+#postInfouserInfo_text p{
+  font-size: 1.25rem;
+  margin: 0;
+  margin-bottom: 0.75rem;
+  margin-top: -0.5rem;
+  color: rgb(21, 107, 88);
+}
+#postInfouserInfo_text div{
+  font-size: 0.75rem;
+  color: rgb(21, 107, 88);
+}
+
+#postInfoTitle{
+  position: relative;
+  width: 40rem;
+  display: flex;
+  flex-direction: row;
+}
+#postInfoTitle p{
+  width: 38rem;
+  font-size: 1.5rem;
+  margin: 0;
+  line-height: 2.75rem;
+
+}
+#postInfoTitle button{
+  width: 3rem;
+  height: 3rem;
+  line-height: 0.5rem;
+  background-color: rgba(30, 159, 131, 0.15);
+  border-radius: 0.25rem;
+  border: none;
+}
+#postView{
+  display: flex;
+  flex-direction: row;
+  font-size:1rem;
+  margin-top: -0.3rem;
+  border: none;
+  height: 2rem;
+  padding-top: 0.25rem;
+  padding-right: 0rem;
+  color: rgb(21, 107, 88);
+}
+#postView p{
+  margin: 0%;
+  margin-left: 0.5rem;
+  margin-top:0.35rem;
+}
+#postView svg{
+  margin-top:0.25rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  color: rgb(22, 124, 102);
+}
+#rightPostionPost{
+  position: absolute;
+  top:0.5rem;
+  right: 1rem;
+}
+#postInfoSub{
+  position: relative;
+  background-color: rgba(30, 159, 131, 0.15);
+  width: 45rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0.8rem;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#postInfoType{
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:double 2.5px rgba(255, 255, 255, 0.75);
+  color:rgb(255, 255, 255);
+  background-color: rgba(51, 133, 115, 0.3);
+  border-radius: 50%;
+  margin-top: 0rem;
+  margin-right: 1rem;
+}
+#postInfoType p{
+  margin-top: 1.25rem;
+  font-size: 2rem;
+}
+#postInfoTitle{
+  line-height: 2.75rem;
+}
+
+#postContent{
+  margin-top: 1rem;
+  width: 45rem;
+  justify-content: left;
+}
+#postContent img{
+  max-width: 45rem;
+  object-fit: cover;
+}
+#postInfoStar{
+  width: 4.25rem;
+  position: relative;
+}
+#postInfoStar svg{
+  width: 3rem;
+  height: 3rem;
+  margin: 0;
+  color:rgb(245, 245, 0);
+}
+#postInfoStar p{
+  width:3rem;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-align: center;
+  position: absolute;
+  top:1.1rem;
+}
+#item_post{
+  width: 18rem;
+  top:0.5rem;
+  height: 4.4rem;
+  position: absolute;
+  right: 7rem;
+  border: none;
+  border-radius: 0.3rem;
+  color:rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+#item_post a{
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  align-items: center;
+}
+#item_post p{
+  width: 14rem;
+  text-align: center;
+  margin: 0;
+  margin-left: 0rem;
+}
+#item_post img{
+  margin-left: 0.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+.invisibleButton{
+  visibility: hidden;
+}

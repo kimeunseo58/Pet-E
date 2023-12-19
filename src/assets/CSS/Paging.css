@@ -1,0 +1,43 @@
+.List_paging_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.List_paging_container p {
+  display: flex;
+  flex-direction: row;
+  width: 2rem;
+  margin: 0;
+  line-height: 1.615rem;  
+  justify-content: center;
+  font-size: 1.25rem;
+}
+.List_paging_container svg{
+  margin:0;
+  width: 0.75rem;
+  height: 0.75rem;
+  color: white;
+}
+.List_paging_container button{
+  font-family: 'Orbit-Regular', sans-serif;
+  color:black;
+  text-align: center;
+  width: 1.65rem;
+  height: 1.65rem;
+  border-radius: 0.125rem;
+  background-color:rgba(30, 157, 130, 0.25);
+  border: none;
+}
+.beforePaging {
+  margin-right: 1rem;
+  margin-left: 0.2rem;
+}
+.afterPaging{
+  margin-left: 1rem;
+  margin-right: 0.2rem;
+}
+.List_paging button{
+  background-color: #ffffff00;
+  color:black;
+  margin: 0;
+}

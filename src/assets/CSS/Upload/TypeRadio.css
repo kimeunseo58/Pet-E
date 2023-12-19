@@ -1,0 +1,66 @@
+.radioType{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.radioType p{
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  margin-left:0rem;
+  color: gray;
+}
+.radioDiv{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: -0.2rem;
+}
+#forBottomLine{
+  width: 47rem;
+  height: 0;
+  border-bottom: 1.5px solid rgba(145, 145, 145, 0.2);
+}
+.radioType input{
+  width: 0;
+  visibility: hidden;
+}
+.radioType label{
+  margin-left: 0.2rem;
+  padding-right:13px;
+  border:double 2.5px rgba(255, 255, 255, 0.75);
+  color:rgb(255, 255, 255);
+  background-color: rgba(51, 133, 115, 0.3);
+  border-radius: 1rem;
+  padding-bottom: 2px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 1.5rem;
+  align-items: center;
+}
+.radioType #radioSVG{
+  position: relative;
+  margin-top: 0.15rem;
+}
+.radioType #radioP{
+  color: white;
+  margin: 0%;
+}
+#checked{
+  background-color: rgba(51, 133, 115, 1);
+}
+#checkedDIv{
+  display: flex;
+  flex-direction: row;
+  color:rgba(0, 0, 0, 0.65);
+  height: 2rem;
+  align-items: center;
+}
+#checkedDIv p{
+  margin: 0;
+}
+#checkedDIv svg{
+  margin-top: 0.2rem;
+  margin-right: 0.2rem;
+}

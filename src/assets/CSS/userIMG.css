@@ -1,0 +1,143 @@
+.userimg_myPage_container{
+  width: 42rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.userimg_myPage_container svg{
+  color: rgba(30,157,130,0.5);
+  margin-top: 0.6rem;
+  height: 91%;
+  width: 97%;
+  border-radius: 2.5rem
+}
+.userimg_myPage{
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-top: -1rem;
+    border-radius: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.114);
+}
+.userimg_myPage img{
+  
+  object-fit: cover;
+  padding: 0rem;
+  margin-top:0.15rem;
+  background-color: white;
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.userIcon{
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-top: 0.2rem;
+  border-radius: 0.25rem;
+  background-color: rgba(0, 0, 0, 0.114);
+  color: rgba(30,157,130,0.5);
+}
+.userIcon svg{
+  width: 1.75rem;
+  height: 1.75rem;
+  padding-bottom: 0.9rem;
+
+}
+.userIcon img{
+  margin-bottom: 2rem;
+  object-fit: cover;
+  margin-top: 0;
+}
+.List_user_writer .userimg_List{
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 0.25rem;
+  transition: none;
+}
+.List_user_writer .userimg_List img{
+  width: 1.25rem;
+  height: 1.25rem;
+  object-fit: cover;
+}
+.userimg_List:hover{
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 0.25rem;
+}
+.posting_container{
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.114);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+.posting_container svg{
+  color: rgba(30,157,130,0.5);
+  margin-top: 0.6rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+}
+.posting_container img{
+  border-radius: 0.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  margin-top: 0.3rem;
+}
+
+.userIcon_comment {  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.114);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width:3rem;
+  height:3rem;
+}
+  .userIcon_comment svg{
+    color: rgba(30,157,130,0.5);
+    margin-top: 0.6rem;
+    width:3rem;
+    height:3rem;
+    border-radius: 0.5rem;
+  }
+  .userIcon_comment img{
+    border-radius: 0.5rem;
+    width:3rem;
+    height:3rem;
+    object-fit: cover;
+  }
+
+  .userimg_myPage_upload_container{
+      width: 10rem;
+      justify-content: center;
+      align-items: center;
+      display: flex;    
+      height: 10rem;
+      margin-top:1.25rem
+  }
+  .userimg_myPage_upload_container svg{
+    color: rgba(30,157,130,0.5);
+    margin-top: 0.6rem;
+    height: 91%;
+    width: 97%;
+    border-radius: 0.5rem
+  }
+  .userimg_myPage_upload{
+    align-items: center;
+      justify-content: center;
+      display: flex;
+      width: 10rem;
+      height:10rem;
+      border-radius:0.5rem;
+      background-color: rgba(0, 0, 0, 0.114);
+  }
+  .userimg_myPage_upload img{
+    background-color: white;
+    object-fit: cover;
+  }

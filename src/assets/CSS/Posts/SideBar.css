@@ -1,0 +1,73 @@
+#SideBar{
+  position: fixed;
+  left: calc(50% + 30rem); /* 수평으로 화면 중앙에서 32rem 오른쪽으로 이동 */
+  top:15rem;
+}
+#postLikes{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.25rem;
+  height: 4.25rem;
+  border:1px solid lightgray;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+#postLikes p{
+  position: absolute;
+  margin: 0%;
+  margin-top: -0.2rem;
+  font-size: 0.75rem;
+  color: #156b58;
+  margin-left: 0rem;
+  font-weight: 900;
+}
+#postLikes .heart-thin-animation, .heart-fill-animation{
+  transition: transform 0.3s ease; 
+  width: 3rem;
+  height: 3rem;
+  margin-top: 0.25rem;
+}
+#postLikes .heart-thin-animation {
+  color:grey
+}
+#postLikes #checkedHeart{
+  color:white;
+  font-weight: 900;
+}
+
+/* 클릭 후 상태 (채워진 하트) */
+.heart-fill-animation {
+  color: rgb(202, 0, 0);
+}
+
+/* 애니메이션에 변환 효과를 적용합니다. */
+.heart-thin-animation:hover,
+.heart-fill-animation:hover {
+  transform: scale(1.2); /* 마우스를 올려놓았을 때 약간 확대되는 효과를 줍니다. */
+}
+
+#sideBarComment{
+  position: absolute;
+  top:7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.25rem;
+  height: 4.25rem;
+  border:1px solid lightgray;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#sideBarComment svg{
+  transition: transform 0.3s ease; 
+  width: 2rem;
+  height: 2rem;
+  color: #156b58;
+
+}
+.sideBarComment-animation:hover{
+  transform: scale(1.1);
+}

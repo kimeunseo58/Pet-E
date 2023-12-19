@@ -1,0 +1,69 @@
+#withdrawal{
+  margin-top: 10rem;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  width: 30rem;
+  margin: auto;
+  margin-top: 7rem;
+  margin-bottom: 10rem;
+  position: relative;
+}
+#withdrawalAlert{
+  font-weight: 850;
+}
+#withdrawalAlertList{
+  border: 1px solid rgba(30,157,130,0.75);
+  height: 9rem;
+  line-height: 2rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+#userInfo_Div_withdrawal{
+  margin-top: 2rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#userInfo_Div_withdrawal_email{
+  flex-direction: column;
+  margin-top: 1rem;
+  display: flex;
+}
+#userInfo_Div_withdrawal input{
+  width: 1rem;
+}
+#userInfo_Div_withdrawal p{
+  margin: 0;
+  line-height: 2rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+#userInfo_Div_withdrawal_email input{
+  width: 29rem;
+  height: 2.5rem;
+  border:1px solid lightgray;
+  padding:0;
+  padding-left: 1rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+#userInfo_Div_withdrawal_email input:focus{
+  border:1px solid rgb(30,157,130);
+}
+#submitButton_withdrawal{
+  color: white;
+  border: none;
+  background-color: rgb(30,157,130);
+  width: 30rem;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  margin-top: 0rem;
+}
+#submitButton_withdrawal:disabled{
+  
+  background-color: lightgrey;
+}

@@ -1,0 +1,138 @@
+#Comments{
+  width: 45rem;
+  margin-top: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+}
+#numOfComm{
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+#Comments p{
+  margin: 0;
+  line-height: 2.4rem;
+  margin-left: 1rem;
+  color: rgb(30,157,130);
+}
+.comment_input_label{
+  display: flex;
+  flex-direction: row;
+  width: 45rem;
+  height: 3rem;
+  position: relative;
+}
+.comment_input_label .useIMGCOMM{
+  width: 3rem;
+  height: 3rem;
+  margin-top: 0.1rem;
+  margin-right: 1rem;
+}
+.comment_input_label button{
+  position: absolute;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 3rem;
+  height: 3rem;
+}
+.comment_input_label button:enabled{
+  color: rgb(30,157,130);
+}
+.comment_input_label textarea{
+  font-family: 'Orbit-Regular', sans-serif; ;
+  width: 41rem;
+  max-width: 42rem;
+  padding-left: 1rem;
+  border: 1px solid rgba(141, 141, 141, 0.445) ;
+  border-radius: 0.25rem;
+  outline:none;
+  font-size: 1rem;
+  line-height: 3rem;
+  resize: none;
+}
+.comment_input_label textarea:focus{
+  border: 1px solid rgba(30, 157, 130, 0.445) ;
+}
+
+#comment_div{
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(30, 157, 130, 0.445) ;
+}
+
+#comment_div .useIMGCOMM_bottom{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+#comment_div .useIMGCOMM_bottom button{
+  position: absolute;
+  right: 0;
+  border:none;
+  background-color:  rgba(143, 143, 143, 0.445) ;
+  border-radius: 0.25rem;
+  color: white;
+  width: 3rem;
+  height: 2rem;
+}
+#comment_div .useIMGCOMM_bottom  #button2_comment{
+  background-color:  rgba(30, 157, 130, 0.445) ;
+  right: 3.5rem;
+}
+#comment_div .useIMGCOMM_bottom p{
+  margin: 0;
+  margin-left: 1rem;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+}
+#comment_div .useIMGCOMM_bottom2{
+  padding-left: 1.1rem;
+    margin-top: 0rem;
+}
+#comment_div .useIMGCOMM_bottom2 .comment_likes_P{
+  font-size: 1.2rem;
+  color: black;
+  margin-left: -0.15rem;
+}
+
+.comment_likes {
+  display: flex;
+  flex-direction: row;
+  width: 20rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  
+}
+.useIMGCOMM_bottom2 .comment_likes div{
+  margin: 0%;
+  font-size: 0.75rem;
+  width: 7rem;
+  color:  rgba(30, 157, 130) ;
+}
+.comment_likes .heart-thin-animation2, .heart-fill-animation2{
+  transition: transform 0.3s ease; 
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.25rem;
+  margin-top: -0.125rem;
+}
+.heart-thin-animation2 {
+  color:grey
+}
+
+/* 클릭 후 상태 (채워진 하트) */
+.comment_likes .heart-fill-animation2 {
+  color: rgb(202, 0, 0);
+}
+
+/* 애니메이션에 변환 효과를 적용합니다. */
+.comment_likes .heart-thin-animation2:hover,
+.comment_likes .heart-fill-animation2:hover {
+  transform: scale(1.2); /* 마우스를 올려놓았을 때 약간 확대되는 효과를 줍니다. */
+}

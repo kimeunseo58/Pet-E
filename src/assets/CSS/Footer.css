@@ -1,0 +1,56 @@
+.Footer{
+  bottom: 0;
+  height: 15rem;
+  width: 100vw;
+  margin-bottom: -0.5rem;
+  margin-left: -0.5rem;
+  background-color: rgb(246, 246, 246);
+  color: grey;
+  font-size: 0.5rem;
+  overflow-x: hidden !important; 
+}
+
+.FooterDiv{
+  display: flex;
+  flex-direction: row;
+  width: 55rem;
+  margin: auto;
+}
+.FooterDiv div{
+  width: 17rem;
+  margin: 1.5rem;
+}
+.FooterDiv .FooterDeveopler{
+  margin:0;
+}
+.FooterDeveopler p,
+.FooterDeveopler div{
+  margin: 0;
+  padding:0;
+  width: 17rem;
+}
+.FooterDeveopler .Git_Email{
+  padding-top: 0.2rem;
+  display: flex;
+  flex-direction: row;
+}
+.FooterDeveopler .Git_Email a, p{
+  line-height: 0.85rem;
+  text-decoration: none;
+}
+.footerIcon{
+  padding-top: 0.2rem;
+  padding-right: 0.2rem;
+  justify-content: center;
+}
+.FooterDiv .FotterLine{
+  width: 0.1px;
+  height: 8rem;
+  padding-top: 3.75rem;    
+  /* margin: auto; */
+  border: 0.1px solid rgba(200, 200, 200, 0.45 );
+}
+
+.sesac{
+  width: 10rem;
+}

@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Orbit-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/Orbit-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Happiness-Sans-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+body{
+  
+  overflow-x: hidden;
+   font-family: 'Orbit-Regular', sans-serif; 
+  /*font-family: 'Happiness-Sans-Bold', sans-serif;*/
+}
+html button{
+  font-family: 'Orbit-Regular', sans-serif; 
+ /*font-family: 'Happiness-Sans-Bold', sans-serif;*/
+}
+body a{
+  text-decoration: none;
+  color: black;
+}
+.MainContainer{
+  height: 65rem;
+  position: relative;
+}
+.mainBanner{
+  margin: auto;
+  margin-top: 6.5rem;
+  width: 55rem;
+  display: flex;
+  flex-direction: row;
+  height:25rem;
+  margin-bottom: 1rem;
+}
+.mainPics{
+  width: 40rem;
+  padding-right: 1rem;
+  position: relative;
+  overflow: hidden; /* 이미지 영역을 벗어나는 부분 숨김 */
+}
+.mainPics p{
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1rem;
+  color:white;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.mainPics .smaller_p{
+  left: 3.2rem;
+  bottom: 0.25rem;
+  font-size: 1rem;
+}
+.mainPics img{
+  height: 100%;
+  width: 40rem;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  transition: transform 0.3s ease;
+}
+.mainPics img:hover {
+  transform: scale(1.05); /* 마우스 호버 시 약간 축소되는 효과 */
+}
+.mainBannerComp{
+  width: 15rem;
+}
+.mainTag{
+  width: 55rem;
+  padding-top: 1.5rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.mainTag .smallP{
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+.mainTag p{
+  text-align: left;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.mainTag button{
+  font-family: 'Orbit-Regular', sans-serif;
+  position: absolute;   
+  right: 0.1rem;
+  color:rgb(30,157,130);
+  font-weight: 900;    
+  height: 3.5rem;
+  background-color: #f0f8ff00;
+  border:none;
+}
+.moreButton{
+  margin-top: -1.1rem;
+}
